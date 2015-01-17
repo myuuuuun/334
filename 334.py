@@ -27,16 +27,18 @@ def Nandeya(n, flag_3, flag_33):
 
 
 if __name__ == "__main__":
-    list = [0 for x in range(1000)]
-    for i in range(len(list)):
-        try:
-            list[i] = Nandeya(1, False, False)
 
-        except RuntimeError:
-            print "{0}回目にRuntimeError発生".format(i+1)
-            list[i] = Nandeya(1, False, False)
+    for i in range(100):
 
-    print list
-    print sum(list)/len(list)
+        list = [0 for x in range(1000)]
+        for i in range(len(list)):
+            try:
+                list[i] = Nandeya(1, False, False)
+
+            except RuntimeError:
+                print "{0}回目にRuntimeError発生".format(i+1)
+                list[i] = Nandeya(1, False, False)
+        #print list
+        print sum(list)/len(list)
 
 
