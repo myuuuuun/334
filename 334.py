@@ -28,7 +28,7 @@ def Nandeya(n, flag_3, flag_33):
 
 if __name__ == "__main__":
 
-    for i in range(100):
+    for i in range(10):
 
         list = [0 for x in range(1000)]
         for i in range(len(list)):
