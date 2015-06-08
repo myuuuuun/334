@@ -9,6 +9,9 @@ https://twitter.com/msmt9/status/556022313057927168
 解答：
 https://twitter.com/msmt9/status/556068948437770240
 
+ipython notebookでの実行結果
+https://github.com/myuuuuun/334/blob/master/334.ipynb
+
   
 
 ##実行結果
